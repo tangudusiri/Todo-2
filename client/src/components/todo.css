@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 90vw;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid lawngreen;
+}
+header > .heading{
+    text-align: right;
+}
+.section-body{
+    display: flex;
+    flex-direction: column;
+}
+.section-body .side-section{
+    width: 20%;
+    height: 100vh;
+    background-color: lawngreen;
+}
+.activity{
+    text-align: right;
+    margin-right: 20px;
+    margin: -300px 250px;
+}

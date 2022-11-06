@@ -1,0 +1,37 @@
+
+.main-box{
+    background-color:orangered;
+    width: 100vw;
+    height: 100vh;
+}
+.main-box .login-wrap{
+    width: 300px;
+    height: 250px;
+    margin:auto ;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+.login-wrap > h2{
+    text-align: center;
+}
+.login-wrap input,div{
+    width: 90%;
+    height: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.login-wrap .btn{
+    background-color: slateblue;
+    margin-left: 13px;
+    height:25px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 10px;
+    color: red;
+}
+.or{
+    text-align: center;
+    margin: -10px;
+}

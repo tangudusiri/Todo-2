@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color:aqua;
+}
+.register-wrap{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.register-wrap > h2{
+    text-align: center;
+}
+.register-wrap input,div{
+    width: 90%;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+.register-wrap .btn{
+    background-color: slateblue;
+    margin-left: 13px;
+    height:25px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 10px;
+    color: red;
+}
